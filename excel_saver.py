@@ -1,7 +1,7 @@
 from openpyxl import Workbook
 
 
-def save_as_excel(l):
+def save_as_excel(l,save_path):
     workbook = Workbook()
     worksheet = workbook.active
     # print(l)
@@ -20,4 +20,4 @@ def save_as_excel(l):
             # print(l)
             raise
             # continue
-    workbook.save(r'D:\数据分布\车辆\vehicle.xlsx')
+    workbook.save(save_path)
