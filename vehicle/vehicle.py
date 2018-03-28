@@ -2,17 +2,27 @@ from config import *
 import pymongo
 from excel_saver import save_as_excel
 from utils import *
+from weather_dict import weather_dict
 
 client = pymongo.MongoClient(MONGO_URL)
 db = client[MONGO_DB_VEHICLE]
+mode = 'train'
 
-path = r'D:\数据分布\车辆\json_dir'
+path = r'D:\数据分布\车辆\{}_data'.format(mode)
 
 
-def parse_vehicle_json(path_name,j):
-    image_key = os.path.splitext(j['image_key'])[0]
-    # print('now parsing', image_key)
-    video_index = j['video_index']
+def parse_vehicle_json(path_name, j):
+    image_name = os.path.splitext(j['image_key'])[0]
+
+    if image_name.find('Adas') != -1:
+        image_name = image_name.replace('-', '_')
+        image_name = image_name.split('_')
+        image_key = image_name[1] + "_" + image_name[2] + "_" + "0"
+        # print(image_key)
+    else:
+        image_key = os.path.splitext(j['image_key'])[0]
+
+    video_index = int(j['video_index'])
     try:
         vehicles = j['vehicle']
     except:
@@ -31,25 +41,41 @@ def parse_vehicle_json(path_name,j):
                 d['path'] = path_name
                 d['image_key'] = image_key
                 d['video_index'] = video_index
-                d['height'] = abs(vehicle['data'][0] - vehicle['data'][1])
-                d['width'] = abs(vehicle['data'][3] - vehicle['data'][2])
-                d['score'] = vehicle['attrs'].get('score', '未定义')
-                d['hard_sample'] = vehicle['attrs'].get('hard_sample', '未定义')
-                d['occlusion'] = vehicle['attrs'].get('occlusion', '未定义')
-                d['humanCheck'] = vehicle['attrs'].get('humanCheck', '未定义')
-                d['ignore'] = vehicle['attrs'].get('ignore', '未定义')
-                d['part'] = vehicle['attrs'].get('part', '未定义')
-                d['blur'] = vehicle['attrs'].get('blur', '未定义')
-                d['type'] = vehicle['attrs'].get('type', '未定义')
-                d['id'] = vehicle['id']
+                d['height'] = abs(round(float(vehicle['data'][3]) - float(vehicle['data'][1]), 1))
+                d['width'] = abs(round(float(vehicle['data'][2]) - float(vehicle['data'][0]), 1))
+                # d['score'] = vehicle['attrs'].get('score', None)
+                d['hard_sample'] = vehicle['attrs'].get('hard_sample', None)
+                d['occlusion'] = vehicle['attrs'].get('occlusion', None)
+                d['humanCheck'] = vehicle['attrs'].get('humanCheck', None)
+                d['ignore'] = vehicle['attrs'].get('ignore', None)
+                d['part'] = vehicle['attrs'].get('part', None)
+                d['blur'] = vehicle['attrs'].get('blur', None)
+                d['type'] = vehicle['attrs'].get('type', None)
+                d['id'] = int(vehicle['id'])
+                # 自定义的特征
+                try:
+                    d['h/w'] = round(float(d['height'] / d['width']), 1)
+                except ZeroDivisionError:
+                    d['h/w'] = None
+                d['area'] = round(float(d['height'] * d['width']), 0)
+                d['data_id'] = d['path'].split('_')[0]
+                d['weather'] = weather_dict.get(d['data_id'], None)
                 # 获取时间
                 time_list = image_key.split('_')
-                date = time_list[0]
-                time = time_list[1]
-                frame = int(time_list[-1])
-                d['time'] = parse_time(date, time, frame)
+                if len(time_list) > 2:
+                    date = time_list[0]
+                    time = time_list[1]
+                    frame = int(time_list[-1])
+                    d['time'] = parse_time(date, time, frame)
+                    d['hour'] = int(d['time'][:2])
+                else:
+                    d['time'] = None
+                    d['hour'] = None
+
                 rect_list.append(d)
             except:
+                print('image_key---', image_key)
+                print('j-----------', j)
                 print('error-------', vehicle)
                 raise
     return rect_list
@@ -81,15 +107,14 @@ def main():
                         # 当list中内容过多时，存储进本地文件中
                         if len(result) > 400000:
                             # save_memory(result)
-                            save_as_excel(result, r'D:\数据分布\行人\{}.xlsx'.format(i))
+                            save_as_excel(result, r'D:\数据分布\车辆\vehicle_{0}_{1}.xlsx'.format(mode, i))
                             i += 1
                             result = []
-    save_as_excel(result, r'D:\数据分布\行人\train_{}.xlsx'.format(i))
-
+    save_as_excel(result, r'D:\数据分布\车辆\vehicle_{0}_{1}.xlsx'.format(mode, i))
 
     # for _ in result:
     #     save_to_mongo(_)
-    save_as_excel(result, r'D:\数据分布\车辆\vehicle.xlsx')
+    save_as_excel(result, r'D:\数据分布\车辆\vehicle_{0}_{1}.xlsx'.format(mode, i))
 
 
 if __name__ == '__main__':

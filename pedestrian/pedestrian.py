@@ -3,11 +3,13 @@ import pymongo
 import json
 from excel_saver import save_as_excel
 from utils import *
+from weather_dict import weather_dict
 
 client = pymongo.MongoClient(MONGO_URL)
 db = client[MONGO_DB_PEDESTRIAN]
+mode = 'train'
 
-path = r'D:\数据分布\行人\zyy_pedestrian\train_data'
+path = r'D:\数据分布\行人\zyy_pedestrian\{}_data'.format(mode)
 
 
 def parse_pedestrian_json(path_name, j):
@@ -31,7 +33,6 @@ def parse_pedestrian_json(path_name, j):
     try:
         persons = j['person']
     except:
-        # print('no person')
         return None
     # 当前json中方框的list
     rect_list = []
@@ -47,8 +48,8 @@ def parse_pedestrian_json(path_name, j):
                 d['path'] = path_name
                 d['image_key'] = image_key
                 d['video_index'] = video_index
-                d['height'] = abs(int(float(person['data'][0]) - float(person['data'][1])))
-                d['width'] = abs(int(float(person['data'][3]) - float(person['data'][2])))
+                d['height'] = abs(round(float(person['data'][3]) - float(person['data'][1]),1))
+                d['width'] = abs(round(float(person['data'][2]) - float(person['data'][0]),1))
                 # d['score'] = person['attrs'].get('score', None)
                 d['hard_sample'] = person['attrs'].get('hard_sample', None)
                 d['occlusion'] = person['attrs'].get('occlusion', None)
@@ -58,12 +59,19 @@ def parse_pedestrian_json(path_name, j):
                 d['blur'] = person['attrs'].get('blur', None)
                 d['type'] = person['attrs'].get('type', None)
                 d['id'] = int(person['id'])
+                # 自定义的特征
+                d['h/w'] = round(float(d['height'] / d['width']),1)
+                d['area'] = round(float(d['height'] * d['width']),0)
                 # 获取时间
                 time_list = image_key.split('_')
                 date = time_list[0]
                 time = time_list[1]
                 frame = int(time_list[-1])
                 d['time'] = parse_time(date, time, frame)
+                d['hour'] = int(d['time'][:2])
+
+                d['data_id'] = d['path'].split('_')[0]
+                d['weather'] = weather_dict.get(d['data_id'], None)
                 rect_list.append(d)
             except:
                 print('error-------', person)
@@ -105,10 +113,10 @@ def main():
                         # 当list中内容过多时，存储进本地文件中
                         if len(result) > 400000:
                             # save_memory(result)
-                            save_as_excel(result, r'D:\数据分布\行人\{}.xlsx'.format(i))
+                            save_as_excel(result, r'D:\数据分布\行人\pedestrian_{0}_{1}.xlsx'.format(mode,i))
                             i += 1
                             result = []
-    save_as_excel(result, r'D:\数据分布\行人\train_{}.xlsx'.format(i))
+    save_as_excel(result, r'D:\数据分布\行人\pedestrian_{0}_{1}.xlsx'.format(mode,i))
     # save_memory(result)
     # for _ in result:
     #     save_to_mongo(_)
