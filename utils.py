@@ -35,10 +35,23 @@ def get_json_file(path):
 
 def get_json_list(file_list):  # 更新：建立了一个dict，以每个文件名path为key，里面放这个文件名里面的json list
     # 获取所有json
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
     json_list = []
     for file in file_list:
         l = []
         json_dict = {}
+<<<<<<< HEAD
+=======
+=======
+    json_dict = {}
+    json_list = []
+    for file in file_list:
+        l = []
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
         with open(file, 'r') as f:
             for line in f.readlines():
                 j = json.loads(line)

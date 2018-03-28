@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="0b694a28-6090-47fe-8b90-93d8062b3b3a" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/weather_dict.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pedestrian/pedestrian.py" afterPath="$PROJECT_DIR$/pedestrian/pedestrian.py" />
       <change beforePath="$PROJECT_DIR$/vehicle/vehicle.py" afterPath="$PROJECT_DIR$/vehicle/vehicle.py" />
     </list>
+=======
+    <list default="true" id="41e57ebb-ff10-4c49-89ea-a9cd3b2f0b74" name="Default" comment="" />
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/data_clean_20180326$pedestrian.coverage" NAME="pedestrian Coverage Results" MODIFIED="1522225824867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pedestrian" />
     <SUITE FILE_PATH="coverage/data_clean_20180326$vehicle.coverage" NAME="vehicle Coverage Results" MODIFIED="1522226563670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vehicle" />
   </component>
@@ -27,17 +32,86 @@
               <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
+=======
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/data_clean_20180326$vehicle.coverage" NAME="vehicle Coverage Results" MODIFIED="1522115761011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vehicle" />
+    <SUITE FILE_PATH="coverage/data_clean_20180326$pedestrian.coverage" NAME="pedestrian Coverage Results" MODIFIED="1522155297651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pedestrian" />
+=======
+    <SUITE FILE_PATH="coverage/data_clean_20180326$pedestrian.coverage" NAME="pedestrian Coverage Results" MODIFIED="1522145386450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pedestrian" />
+    <SUITE FILE_PATH="coverage/data_clean_20180326$vehicle.coverage" NAME="vehicle Coverage Results" MODIFIED="1522115761011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vehicle" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="excel_saver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/excel_saver.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="-99">
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+=======
+            <state relative-caret-position="280">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pedestrian.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pedestrian/pedestrian.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="149">
+              <caret line="104" column="46" lean-forward="true" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#2787#2979#0" expanded="false" />
+=======
+            <state relative-caret-position="1890">
+              <caret line="57" column="37" lean-forward="false" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pedestrian.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pedestrian/pedestrian.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#2771#2963#0" expanded="false" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="weather_dict.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather_dict.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
               <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding />
+=======
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="392">
+              <caret line="35" column="58" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="58" />
+=======
+            <state relative-caret-position="1452">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
             </state>
           </provider>
         </entry>
@@ -45,11 +119,21 @@
       <file leaf-file-name="pedestrian.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pedestrian/pedestrian.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="222">
               <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="0">
+=======
+            <state relative-caret-position="140">
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding />
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
             </state>
           </provider>
         </entry>
@@ -65,22 +149,44 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>'未定义'</find>
       <find>test{}</find>
+=======
+      <find>parse_j</find>
+      <find>'未定义'</find>
+<<<<<<< HEAD
+      <find>k</find>
+=======
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
     </findStrings>
     <replaceStrings>
       <replace>None</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
+=======
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/weather_dict.py" />
         <option value="$PROJECT_DIR$/pedestrian/pedestrian.py" />
         <option value="$PROJECT_DIR$/vehicle/vehicle.py" />
+=======
+        <option value="$PROJECT_DIR$/excel_saver.py" />
+        <option value="$PROJECT_DIR$/vehicle/vehicle.py" />
+        <option value="$PROJECT_DIR$/mongo_saver.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/pedestrian/pedestrian.py" />
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
       </list>
     </option>
   </component>
@@ -91,8 +197,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
+    <option name="x" value="66" />
+    <option name="y" value="99" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -111,8 +217,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
+=======
+<<<<<<< HEAD
+      <pane id="Scratches" />
+=======
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,11 +236,20 @@
             <path>
               <item name="data_clean_20180326" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_clean_20180326" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
               <item name="data_clean_20180326" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_clean_20180326" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_clean_20180326" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
               <item name="pedestrian" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -139,12 +261,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-1.1.1/resources/app/git/mingw64/bin/git.exe" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.gitattributes" />
+<<<<<<< HEAD
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+=======
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,7 +294,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.vehicle">
+=======
+  <component name="RunManager" selected="Python.pedestrian">
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
     <configuration name="pedestrian" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,8 +343,13 @@
     </list>
     <recent_temporary>
       <list size="2">
+<<<<<<< HEAD
         <item index="0" class="java.lang.String" itemvalue="Python.vehicle" />
         <item index="1" class="java.lang.String" itemvalue="Python.pedestrian" />
+=======
+        <item index="0" class="java.lang.String" itemvalue="Python.pedestrian" />
+        <item index="1" class="java.lang.String" itemvalue="Python.vehicle" />
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
       </list>
     </recent_temporary>
   </component>
@@ -216,16 +361,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="0b694a28-6090-47fe-8b90-93d8062b3b3a" name="Default" comment="" />
       <created>1522200810765</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522200810765</updated>
+=======
+      <changelist id="41e57ebb-ff10-4c49-89ea-a9cd3b2f0b74" name="Default" comment="" />
+      <created>1522113653646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522113653646</updated>
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+<<<<<<< HEAD
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -235,9 +392,28 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14322917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -245,8 +421,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,16 +437,29 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+=======
+    <entry file="file://$PROJECT_DIR$/excel_saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="296">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+=======
+        <state relative-caret-position="770">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather_dict.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="259">
           <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
@@ -280,45 +470,255 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="1998">
+          <caret line="57" column="37" lean-forward="false" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+=======
+        <state relative-caret-position="245">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="false" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+=======
+        <state relative-caret-position="70">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/excel_saver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-103">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/pedestrian/pedestrian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1443">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#2787#2979#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+          </folding>
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/excel_saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle/vehicle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="148">
           <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+=======
+        <state relative-caret-position="70">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+=======
+    <entry file="file://$PROJECT_DIR$/pedestrian/pedestrian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#2771#2963#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel_saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pedestrian/pedestrian.py">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pedestrian/pedestrian.py">
+=======
+    <entry file="file://$PROJECT_DIR$/mongo_saver.py">
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#2787#2979#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel_saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mongo_saver.py" />
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="222">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="0">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/excel_saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+          <folding />
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vehicle/vehicle.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="296">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="-301">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+=======
+        <state relative-caret-position="1890">
+          <caret line="57" column="37" lean-forward="false" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
+          </folding>
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/pedestrian/pedestrian.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-99">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+=======
+        <state relative-caret-position="347">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#2771#2963#0" expanded="false" />
+          </folding>
+>>>>>>> cb0e496a283b6874c848a1b94b1faa84d3c14646
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="35" column="58" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pedestrian/pedestrian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="104" column="46" lean-forward="true" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#2787#2979#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
   </component>
 </project>

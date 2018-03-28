@@ -2,15 +2,22 @@ from config import *
 import pymongo
 from excel_saver import save_as_excel
 from utils import *
+<<<<<<< HEAD
 from weather_dict import weather_dict
 
 client = pymongo.MongoClient(MONGO_URL)
 db = client[MONGO_DB_VEHICLE]
 mode = 'train'
+=======
+
+client = pymongo.MongoClient(MONGO_URL)
+db = client[MONGO_DB_VEHICLE]
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
 
 path = r'D:\数据分布\车辆\{}_data'.format(mode)
 
 
+<<<<<<< HEAD
 def parse_vehicle_json(path_name, j):
     image_name = os.path.splitext(j['image_key'])[0]
 
@@ -23,6 +30,12 @@ def parse_vehicle_json(path_name, j):
         image_key = os.path.splitext(j['image_key'])[0]
 
     video_index = int(j['video_index'])
+=======
+def parse_vehicle_json(j):
+    image_key = os.path.splitext(j['image_key'])[0]
+    # print('now parsing', image_key)
+    video_index = j['video_index']
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
     try:
         vehicles = j['vehicle']
     except:
@@ -41,6 +54,7 @@ def parse_vehicle_json(path_name, j):
                 d['path'] = path_name
                 d['image_key'] = image_key
                 d['video_index'] = video_index
+<<<<<<< HEAD
                 d['height'] = abs(round(float(vehicle['data'][3]) - float(vehicle['data'][1]), 1))
                 d['width'] = abs(round(float(vehicle['data'][2]) - float(vehicle['data'][0]), 1))
                 # d['score'] = vehicle['attrs'].get('score', None)
@@ -60,6 +74,19 @@ def parse_vehicle_json(path_name, j):
                 d['area'] = round(float(d['height'] * d['width']), 0)
                 d['data_id'] = d['path'].split('_')[0]
                 d['weather'] = weather_dict.get(d['data_id'], None)
+=======
+                d['height'] = abs(vehicle['data'][0] - vehicle['data'][1])
+                d['width'] = abs(vehicle['data'][3] - vehicle['data'][2])
+                d['score'] = vehicle['attrs'].get('score', '未定义')
+                d['hard_sample'] = vehicle['attrs'].get('hard_sample', '未定义')
+                d['occlusion'] = vehicle['attrs'].get('occlusion', '未定义')
+                d['humanCheck'] = vehicle['attrs'].get('humanCheck', '未定义')
+                d['ignore'] = vehicle['attrs'].get('ignore', '未定义')
+                d['part'] = vehicle['attrs'].get('part', '未定义')
+                d['blur'] = vehicle['attrs'].get('blur', '未定义')
+                d['type'] = vehicle['attrs'].get('type', '未定义')
+                d['id'] = vehicle['id']
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
                 # 获取时间
                 time_list = image_key.split('_')
                 if len(time_list) > 2:
@@ -90,6 +117,7 @@ def main():
     file_list = get_json_file(path)
     json_list = get_json_list(file_list)
     result = []
+<<<<<<< HEAD
     # for j in json_list:
     #     l = parse_vehicle_json(j)
     #     if l:
@@ -115,6 +143,16 @@ def main():
     # for _ in result:
     #     save_to_mongo(_)
     save_as_excel(result, r'D:\数据分布\车辆\vehicle_{0}_{1}.xlsx'.format(mode, i))
+=======
+    for j in json_list:
+        l = parse_vehicle_json(j)
+        if l:
+            for _ in l:
+                result.append(_)
+    # for _ in result:
+    #     save_to_mongo(_)
+    save_as_excel(result, r'D:\数据分布\车辆\vehicle.xlsx')
+>>>>>>> 499f49f6800a8bbb8afeb9c7a40c26813897b7ed
 
 
 if __name__ == '__main__':
