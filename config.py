@@ -1,3 +1,5 @@
 MONGO_URL = 'localhost'
-MONGO_DB='vehicle'
-MONGO_TABLE='vehicle'
+MONGO_DB_VEHICLE= 'vehicle'
+MONGO_DB_PEDESTRIAN= 'p_train'
+MONGO_TABLE_VEHICLE= 'vehicle'
+MONGO_TABLE_PEDESTRIA= 'p_train'
